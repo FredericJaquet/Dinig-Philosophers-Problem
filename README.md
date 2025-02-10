@@ -5,7 +5,7 @@
 
 **Key Features**:
 
-**"Cook" Process*: Implementation of a separate process ("Cook") that generates "dishes" (data) and writes them to a shared text file (simulating a message queue). Multiple instances of this process run in parallel.
+**"Cook" Process**: Implementation of a separate process ("Cook") that generates "dishes" (data) and writes them to a shared text file (simulating a message queue). Multiple instances of this process run in parallel.
 
 **Main Process**: Responsible for starting the "Cook" processes and the "Waiter" and "Philosopher" threads.
 
